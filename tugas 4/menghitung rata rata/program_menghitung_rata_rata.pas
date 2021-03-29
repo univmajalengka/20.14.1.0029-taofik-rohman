@@ -32,4 +32,5 @@ clrscr;
         writeln('total bilangan: ',tot:6);
         writeln('rata-rata : ',rata:6:2);
 
+        readln;
 end.
