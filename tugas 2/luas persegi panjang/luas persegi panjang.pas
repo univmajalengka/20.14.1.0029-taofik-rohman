@@ -14,11 +14,13 @@ begin
 clrscr;
         writeln('program luas persegi panjang');
         writeln('==============================');
-        write ('masukan panjang         =');read(panjang);
-        write ('masukan lebar           =');read(lebar);
+        write ('masukan panjang         =');readln(panjang);
+        write ('masukan lebar           =');readln(lebar);
         hasil := panjang * lebar;
         writeln('luas = panjang x lebar');
         writeln('luas =',hasil);
-        readln;
+
+
+readln;
 
 end.
