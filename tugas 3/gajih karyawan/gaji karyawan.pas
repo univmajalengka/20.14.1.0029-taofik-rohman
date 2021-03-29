@@ -52,10 +52,11 @@ clrscr;
           potongan_iuran := (gaji_pokok + tunjangan) * persentase;
           gaji_bersih  := gaji_pokok+tunjangan-potongan_iuran;
 
-          writeln('gaji_pokok   : Rp. ',gaji_pokok);
-          writeln('tunjangan    : RP. ',tunjangan);
-          writeln('potongan_iuran : RP. ',potongan_iuran);
-          writeln('gaji bersih  : RP. ',gaji_bersih);
+          writeln('gaji_pokok   : Rp. ',gaji_pokok:0:0);
+          writeln('tunjangan    : RP. ',tunjangan:0:0);
+          writeln('potongan_iuran : RP. ',potongan_iuran:0:0);
+          writeln('gaji bersih  : RP. ',gaji_bersih:0:0);
 
-
+        readln;
         end.
+
